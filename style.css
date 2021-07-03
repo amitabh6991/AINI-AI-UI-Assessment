@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+   
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* window page */
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+/* ****************************first  column options *****************************/
+.options {
+  height: 100%;
+  min-width: 6.5%;
+  /* border: 1px solid rgb(230, 14, 183); */
+  box-shadow: 10px 0 5px -2px rgb(244, 243, 252);
+}
+/* in options each box like students , settings ..... */
+.full_box {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  order: 10;
+  /* border: 1px solid rgb(4, 133, 42); */
+}
+/* in full_box having text  */
+.text {
+  margin-top: 5px;
+  font-size: 10px;
+  font-weight: bold;
+}
+/* that icon there background colour are different from other */
+.active-btn {
+  background-color: rgb(207, 232, 247);
+}
+
+/* ****************************** second column *************************************/
+.content {
+  height: 100%;
+  width: 93.5%;
+  /* border: 1px solid rgb(6, 218, 87); */
+}
+/* blank box */
+.box1 {
+  height: 10%;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+/* box2 having rest of height and background color are different  */
+.box2 {
+  height: 90%;
+  width: 100%;
+  background-color: rgb(247, 246, 255);
+}
+
+/*  */
+.box2-section1 {
+  height: calc(100% / 9);
+  max-width: 8%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.vtext {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.box2-section2 {
+  height: calc(100% / 9);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* border: 1px solid red; */
+}
+
+input[type="link"] {
+  width: 80%;
+  height: 50%;
+  border-radius: 5px;
+  border: 0px solid;
+}
+
+input::-webkit-input-placeholder {
+  opacity: 1;
+  font-weight: bold;
+}
+.or {
+  height: calc(100% / 18);
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.upload_box {
+  min-height: calc(200% / 9);
+  max-width: calc(100% / 9);
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: white;
+  /* border: 1px solid red; */
+}
